@@ -1,0 +1,59 @@
+body{
+    background: #000; 
+    font-family: Arial;
+    font-size: 14px;                  
+}               
+
+
+.post{                              
+    background: #fff;
+    width: 400px;
+    height: 600px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+    
+    
+
+.post-header, .icon-holder{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-right:3%
+  }
+  .user, .icons {
+    display: flex;
+    margin-top: 3%;
+    
+  }
+  .user * {
+    padding: 2px;
+    margin: 0;
+  }
+  
+  .icon-holder {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2px;
+  
+  }
+  
+  .icons{
+  display: flex;
+  padding-left: 1px;
+
+  
+  }
+
+  
+
+  .post-body {
+    margin-top: 3%;
+    
+  }
+  .post-footer {
+    margin-left: 3%;
+    margin-right:3%
+  }
